@@ -1,0 +1,14 @@
+/* aligning images to the center */
+.ui-btn img{
+    top: auto!important;
+}
+/* I changed the color of button to create hierarchy*/
+.ui-btn-icon-notext:after, .ui-btn-icon-left:after {
+    background-color: red !important;
+}
+/* I removed the text shadow for more readability and changed the color of button to create hierarchy*/
+#place-order-button {
+    background-color: red !important;
+    color: white;
+    text-shadow: none !important;
+}
